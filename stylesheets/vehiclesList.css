@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #000000;
+  color: #e2db48;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-showroom-list {
+  margin-top: 1rem;
+}
+
+.container-showroom-list h3 {
+  margin: 1rem;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #000000; /* preto */
+}
+th {
+  background-color: #e2db48; /* amarelo */
+  color: #000000; /* preto */
+}
+
+button {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  border: 1px solid;
+  background-color: #e2db48;
+  color: #000000;
+  padding: 1rem;
+  margin: 1rem;
+  width: 10rem;
+}
